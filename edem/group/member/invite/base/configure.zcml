@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:browser="http://namespaces.zope.org/browser">
+
+  <browser:page 
+    for="Products.XWFChat.interfaces.IGSGroupFolder" 
+    name="admin_join.html" 
+    class=".admin_join.EDemAdminJoinEditProfileForm" 
+    layer="gs.skin.ogn.edem.interfaces.IEDemLayer" 
+    permission="zope2.ManageUsers"/>
+</configure>
