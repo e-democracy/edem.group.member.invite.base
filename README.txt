@@ -16,8 +16,8 @@ E-Democracy customizations of the GroupServer invite system
 Introduction
 ===========
 
-This egg provides some minor additions to the default 'GroupServer'_ invitation
-system.
+This egg provides some minor additions to the default `GroupServer`_ invitation
+system provided by `gs.group.member.invite.base`_.
 
 Resources
 =========
@@ -31,3 +31,5 @@ Resources
 .. _Bill Bushey: http://groupserver.org/p/wbushey
 .. _Creative Commons Attribution-Share Alike 3.0 License:
    http://creativecommons.org/licenses/by-sa/3.0/
+.. _gs.group.member.invite.base:
+   https://source.iopen.net/groupserver/gs.group.member.invite.base
