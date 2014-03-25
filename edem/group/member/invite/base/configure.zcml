@@ -6,6 +6,6 @@
     for="Products.XWFChat.interfaces.IGSGroupFolder" 
     name="admin_join.html" 
     class=".admin_join.EDemAdminJoinEditProfileForm" 
-    layer="gs.skin.ogn.edem.interfaces.IEDemLayer" 
+    layer="edem.skin.interfaces.IEDemLayer" 
     permission="zope2.ManageUsers"/>
 </configure>

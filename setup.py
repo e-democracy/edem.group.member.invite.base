@@ -34,8 +34,10 @@ setup(name='edem.group.member.invite.base',
     zip_safe=True,
     install_requires=[
         'setuptools',
-        'gs.skin.ogn.edem',
+        'edem.skin',
         'edem.profile.signup.base'
+        'gs.group.member.invite.base.invite',
+        'zope.formlib',
         # -*- Extra requirements: -*-
     ],
     entry_points="""
